@@ -1,23 +1,24 @@
 # 👑 Queen Akira Mini
 
 <p align="center">
-  <img src="https://i.ibb.co/https://files.catbox.moe/qiboje.jpg" width="300"/>
+  <img src="https://files.catbox.moe/qiboje.jpg" width="300"/>
 </p>
 
 ## About
 
 Queen Akira Mini is a WhatsApp Multi Device Bot built with Node.js.
-It provides useful commands, group management tools, downloads, fun features and more.
+
+It provides useful commands, group management tools, downloads, AI features and more.
 
 ## Features
 
 • WhatsApp Multi Device Support  
 • Pairing Code Login  
 • Group Management  
-• Welcome and Goodbye Messages  
+• Welcome and Goodbye System  
 • Anti Link System  
 • Downloader Commands  
-• AI Assistant Features  
+• AI Assistant  
 • Owner Commands  
 • Fun Commands  
 • Auto Reply System  
