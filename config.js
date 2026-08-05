@@ -10,13 +10,13 @@ module.exports = {
     // 1. CONFIGURATION DE BASE (Session & Database)
     // ===========================================================
     SESSION_ID: process.env.SESSION_ID || "MINI BOT", 
-    MONGODB_URI: process.env.MONGODB_URI || 'mongodb+srv://offarslan_db_user:arslanmd@cluster0.xrqkzwg.mongodb.net/?appName=Cluster0',
+    MONGODB_URI: process.env.MONGODB_URI, // ⚠️ Doit être défini dans les variables d'environnement Railway — aucune valeur par défaut
     
     // ===========================================================
     // 2. INFORMATIONS DU BOT
     // ===========================================================
     PREFIX: process.env.PREFIX || '.',
-    OWNER_NUMBER: process.env.OWNER_NUMBER || '+50956649848', // Mettez votre numéro ici
+    OWNER_NUMBER: process.env.OWNER_NUMBER || '', // Mettez VOTRE numéro dans les variables d'environnement Railway
     BOT_NAME: "Queen Akira Mini",
     BOT_FOOTER: '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀᴋɪʀᴀ ᴛᴇᴄʜ',
     
@@ -67,8 +67,8 @@ module.exports = {
     // ===========================================================
     // 8. EXTERNAL API (Optionnel)
     // ===========================================================
-    TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || '8862967832:AAHWjojRwubiPoPRJCUpLb98ingoTAO2Q8k',
-    TELEGRAM_CHAT_ID: process.env.  TELEGRAM_CHAT_ID || '8527417876'
+    TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || '',
+    TELEGRAM_CHAT_ID: process.env.TELEGRAM_CHAT_ID || ''
     
 };
   
